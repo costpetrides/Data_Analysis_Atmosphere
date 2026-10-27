@@ -1,7 +1,5 @@
 # Mathematical Summations to MATLAB Indexing
 
-> GitHub-readable version of the MATLAB Live Script. The MATLAB source file (`.mlx`) is for opening and running in MATLAB Live Editor.
-
 ## Indexing rules
 
 Mathematical indices start at 1 here, as do MATLAB indices: $x_1$ corresponds to `x(1)`. MATLAB ranges `x(start:stop)` include both endpoints (unlike Python slices). `numel(x)` returns the number of elements.
